@@ -8,18 +8,44 @@
     <script src="https://kit.fontawesome.com/8f945a96ef.js" crossorigin="anonymous"></script>
     <style>
         .influencer{
-            display: flex;
+          
+        }
+        .product{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+
+        }
+        .preebook{
+            padding: 10px;
+            background-image: linear-gradient(tomato,white);
+            border-radius: 20px;
+            font-size: 2em;
+        }
+        .camara{
+            background-color: rgb(224, 183, 248);
+          
         }
 
     </style>
 </head>
 <body>
     <main>
-        <section>
+        <section class="section">
             <div class="product">
                 <div class="influencer">
-                  <h2>Influencer product</h2>
+                  <h2>Influencer product</h2><br>
+                  <div>
                   <h1>Start your journey as influncer </h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem 
+                    vestibulum sed scelerisque eros. Lectus faucibus</p>
+                  </div>
+                  <button class="preebook">
+                      preebook now<i class="fas fa-arrow-right"></i>
+                  </div>
+                  </button>
+                </div>
+                <div class="camera">
+                    <img src="/images/main-camera.png" alt="">
                 </div>
             </div>
         </section>
